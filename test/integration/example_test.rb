@@ -5,3 +5,9 @@ class PassingTest < ActiveSupport::TestCase
     assert true
   end
 end
+
+class FailingTest < ActiveSupport::TestCase
+  test 'failure' do
+    assert false
+  end
+end
